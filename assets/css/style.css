@@ -204,6 +204,20 @@ body {
   transition: var(--transition-2);
 }
 
+.register {
+  background: var(--chrome-yellow);
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.register-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn:is(:hover, :focus) {
   background-position: right;
 }
